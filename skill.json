@@ -1,0 +1,28 @@
+{
+  "name": "genpark-synthetic-test-user-persona-generator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Synthetic test user persona & interaction flow generator.",
+  "author": "genpark",
+  "category": "developer",
+  "tags": [
+    "synthetic-persona",
+    "user-testing",
+    "qa-generator",
+    "persona-builder"
+  ],
+  "inputs": {
+    "target_demographic": {
+      "type": "string"
+    },
+    "persona_count": {
+      "type": "integer"
+    }
+  },
+  "outputs": {
+    "generated_personas": {
+      "type": "array"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
